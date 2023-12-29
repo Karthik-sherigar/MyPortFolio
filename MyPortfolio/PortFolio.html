@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PERSONAL PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0c8f5f1f50.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div id="name">Karthik's <span id="folio">Portfolio.</span></div>
+        <nav>
+           
+            <div class="left"></div>
+            <div class="right">
+                <ul>
+                   
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#services"> Services </a></li>
+                    <li><a href="#portfolio"> projects </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+        
+      
+        <br>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hello, Welcome to <span class="name">Karthik's</span>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="dev1.png" alt="about">
+            </div>
+        </section><br>
+
+        <div id="about">
+            <div id="container">
+                <div class="about-col-1">
+                    <img src="photo.png" alt="about">
+                </div>
+                <div class="about-col-2">
+                    <div id="ab">
+                        <h1>About Me</h1>
+                    </div>
+                    <p id="ab2">
+                        Hey there! I'm Karthik, Currently a diligent student with a fervent interest in web development, I'm immersed in the world of crafting immersive digital experiences. Embracing the journey of learning and growth, I aspire to merge creativity and innovation to shape the digital landscape.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('course')">Known Languages</p>
+                        <p class="tab-links" onclick="opentab('projects')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web Interfaces</li>
+                            <li><span>Python</span><br>Empowering versatile solutions with a clean and powerful
+                                language.</li>
+                            <li><span>Java</span><br>Building robust and cross-platform applications for diverse needs
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="course">
+                        <ul>
+                            <li><span>HTML,CSS,Java script</span><br>
+                            <li><span>Python</span><br>
+                            <li><span>Problem solving in C</span><br>
+                            <li><span>Assembly Level language</span><br>
+                            <li><span>OOPs in Java</span><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Student Form</span><br>Crafting a seamless student form experience that captures
+                                user details and elegantly organizes them into a structured column for effortless access
+                                and reference.</li>
+                            <li><span>India's Sporting Heroes</span><br>A tribute to India's sports legends, showcasing
+                                their remarkable journeys, achievements, and contributions to the nation's athletic
+                                heritage</li>
+                            <li><span>Mind Maven: Number Guessing Game</span><br>A Java-based challenge where players
+                                engage in guessing a randomly generated number, testing their intuition and numerical
+                                prowess.</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div><br>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title" style="margin-bottom: 30px;">My Services</h1>
+                <div id="services-list">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p style="font-size: 1rem;">Crafting intuitive and responsive web solutions tailored to your
+                            needs. From building interactive websites to ensuring seamless user experiences, I bring
+                            ideas to life through innovative and efficient development strategies</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div style="flex: 1; margin-right: 20px;">
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python</h2>
+                        <p style="font-size: 1rem;">Python Expertise: Leveraging the versatility of Python, I craft
+                            scalable solutions and automate processes, harnessing its power for efficient coding, data
+                            analysis, and seamless application development</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div style="flex: 1; margin-right: 20px;">
+                        <i class="fa-brands fa-java"></i>
+                        <h2>Java</h2>
+                        <p style="font-size: 1rem;">Java Proficiency: Crafting robust applications and scalable
+                            solutions using Java's powerful object-oriented programming, ensuring reliability and
+                            performance in every project</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="studentform.png" alt="student form">
+                        <div class="layer">
+                            <h3 style="font-size: 2rem;">Student Form</h3>
+                            <p style="font-size: 0.8rem;">StudentForm streamlines student data collection and
+                                management, offering a seamless enrollment experience and secure information updates for
+                                educational institutions.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="sports.jpg" alt="sports" style="height: 403px;">
+                        <div class="layer">
+                            <h3 style="font-size: 2rem;">Indian sports</h3>
+                            <p style="font-size: 0.8rem;">A tribute to India's sporting legacy, showcasing the nation's
+                                iconic sports, their champions, and the rich tapestry of athletic fervor echoing the
+                                heartbeat of the country.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="guessno.png" alt="guessnumber" style="height: 403px;">
+                        <div class="layer">
+                            <h3 style="font-size: 2rem;">Mind Maven</h3>
+                            <p style="font-size: 0.8rem;">An interactive Java game where players challenge their
+                                guessing skills by attempting to predict the randomly generated number within a limited
+                                range, fostering intuition and numerical acumen.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+            <div id="contact">
+                <div class="container">
+                    <div class="contact-row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>sherigarkarthik2@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone"></i>9483577589</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/profile.php?id=100052633297117"><i class="fa-brands fa-facebook"></i></a>
+                                
+                                <a href="https://www.instagram.com/_karthik_sherigar?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/karthik-sherigar-5655932a2"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="text" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2023 Karthik's Portfolio <i class="fa-solid fa-heart"></i>. All rights reserved.</p>
+                </div>
+            </div>
+
+    </main>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['portfolio —a creative force dedicated to innovative solutions and bringing ideas to life!'],
+            typeSpeed: 50,
+        });
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzD8fPBbSqwDmduGLX9gUbRbvAh5Pyu-iCgxNYbAR5WI6w9y2xpoDmhwhCz8KiPzZE/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+        
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .catch(error => console.error('Error!', error.message));
+        
+            window.alert('Form Submitted');
+            form.reset();
+        });
+        
+
+       
+    </script>
+
+</body>
+
+</html>
